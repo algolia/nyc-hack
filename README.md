@@ -20,3 +20,14 @@ The `merge.js` script can merge restaurant data from a CSV file and a JSON file,
 - https://developers.eatstreet.com/
 - https://www.yelp.com/developers/documentation/v3/business_search
 - https://www.yelp.com/developers/documentation/v3/all_category_list
+
+## Personalization Events Sender
+
+### Usage
+
+```sh
+$ APP_ID='' ADMIN_API_KEY='' ./send-perso-events.sh
+```
+
+This will create a `perso-events.json` file and display it.
+After confirmation, the events will be submitted to Algolia Insights API.
