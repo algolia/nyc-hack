@@ -8,3 +8,15 @@
     position: relative;
     left: 12rem;
 }
+
+#searchbox {
+        width: 1150px;
+}
+
+.ais-search-box--magnifier-wrapper {
+    display:none;
+}
+
+cb-icon {
+    display:none !important;
+}
