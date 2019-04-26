@@ -1,9 +1,12 @@
-console.error('loading restaurants_list.json...');
-const restaurantsSet = require('./restaurants_list.json').reduce((set, restaurant) => ({
-  ...set,
-  [restaurant.objectID]: restaurant
-}), {});
+function readExtData (file) {
+  console.error(`loading ${file}...`);
+  return require(file).reduce((set, restaurant) => ({
+    ...set,
+    [restaurant.objectID]: restaurant
+  }), {});
+}
 
+const restaurantsSet = readExtData('./restaurants_list.json');
 // console.log(restaurantsSet['101422']);
 
 /*
