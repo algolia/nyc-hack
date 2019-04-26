@@ -10,7 +10,7 @@ The `merge.js` script can merge restaurant data from a CSV file and a JSON file,
 2. Make sure Node.js is installed, and run `$ npm install`
 3. Run `node merge.js > merged.json`
 
-### Other restaurant data sources
+### Other restaurant data sources we considered
 
 - http://opentable.herokuapp.com/ (example: https://opentable.herokuapp.com/api/restaurants?name=jerk)
 - https://data.world/data-society/discover-the-menu
@@ -20,6 +20,11 @@ The `merge.js` script can merge restaurant data from a CSV file and a JSON file,
 - https://developers.eatstreet.com/
 - https://www.yelp.com/developers/documentation/v3/business_search
 - https://www.yelp.com/developers/documentation/v3/all_category_list
+
+## Personalization Concept
+
+The original idea was to use the [Microsoft Azure Speaker Recognition API](https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/) to train on various speaker inputs (aka different voices) and then match these with user tokens used for personalization.  Due to technical difficulties we were not able to get this working ... yet. 
+
 
 ## Personalization Events Sender
 
@@ -39,3 +44,15 @@ After confirmation, the events will be submitted to Algolia Insights API.
 - From the "Personalization" tab of the Dashboard, increase the "Personalization Impact" vlue to 100%, so that personalized matches are ranked higher.
 
 - From your Index dashboard screen, test that it works by simulating a personlized query. In order to do that, click "Add query parameter", then click on the "Personalization" tab, enable personalization, and enter `adrien` as "User Token". After applying these query parameters, mexican restaurants should be highly ranked.
+
+
+## Front-End
+
+We used the [Roomba tool](https://github.com/algolia/roomba) to scrape the assets off https://www.seamless.com/.
+In order to send in personalization in separate personalization tokens as query parameters, we created seperate html & js files in the profiles directory.
+
+### Usage
+
+Just open up an html file to check it out.
+
+
