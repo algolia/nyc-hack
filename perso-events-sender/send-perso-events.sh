@@ -1,7 +1,7 @@
 # This script will upload events from perso-events.json to Algolia Insights
 
 API_URL='https://insights.algolia.io/1/events'
-API_URL='https://httpbin.org/post' # for testing
+# API_URL='https://httpbin.org/post' # for testing / dry-run
 
 # APP_ID='TWTL3TNARC'
 # ADMIN_API_KEY=''
