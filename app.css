@@ -1,0 +1,9 @@
+.cuisineRibbon-wrapper, 
+.ais-search-box--magnifier-wrapper {
+    display: none;
+}
+
+.s-icon.s-input-group-addon.s-input-group-addon--left.u-flex-center-center.searchAutocomplete-icon {
+    position: relative;
+    left: 12rem;
+}
