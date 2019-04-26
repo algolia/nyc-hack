@@ -1,5 +1,9 @@
 # nyc-hack
 
+## The history
+
+In the dark ages, before we had catered lunch, ordering lunch at office-nyc was a long and terrible affair. We could never decided want we wanted to order. Until.....
+
 ## Index builder
 
 The `merge.js` script can merge restaurant data from a CSV file and a JSON file, in order to upload to an Algolia index.
