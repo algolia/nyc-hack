@@ -17,6 +17,6 @@
     display:none;
 }
 
-cb-icon {
+.searchAutocomplete-icon > cb-icon {
     display:none !important;
 }
