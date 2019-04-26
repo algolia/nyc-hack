@@ -3,8 +3,8 @@
 API_URL='https://insights.algolia.io/1/events'
 API_URL='https://httpbin.org/post' # for testing
 
-APPLICATION_ID='TWTL3TNARC'
-ADMIN_API_KEY=''
+# APP_ID='TWTL3TNARC'
+# ADMIN_API_KEY=''
 INDEX_NAME='restaurants-v2'
 
 gen_event () {
@@ -89,7 +89,7 @@ fi
 
 # send API request to Algolia Insights API
 curl -X POST ${API_URL} \
-  -H 'x-algolia-api-key: ${ADMIN_API_KEY}' \
-  -H 'x-algolia-application-id: ${APPLICATION_ID}' \
+  -H "x-algolia-api-key: ${ADMIN_API_KEY}" \
+  -H "x-algolia-application-id: ${APP_ID}" \
   -H "Content-Type: application/json" \
   -d @perso-events.json
