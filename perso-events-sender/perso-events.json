@@ -1,160 +1,160 @@
 [
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "jack",
     "objectIDs": ["63154"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "jack",
     "objectIDs": ["63154"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "jack",
     "objectIDs": ["63154"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "jack",
     "objectIDs": ["35491"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "jack",
     "objectIDs": ["35491"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "adrien",
     "objectIDs": ["12724"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "adrien",
     "objectIDs": ["12724"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "adrien",
     "objectIDs": ["12724"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "adrien",
     "objectIDs": ["16822"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "adrien",
-    "objectIDs": ["16819"]
+    "objectIDs": ["16822"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "bram",
     "objectIDs": ["27763"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "bram",
     "objectIDs": ["27763"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "bram",
     "objectIDs": ["27763"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "bram",
     "objectIDs": ["27787"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "bram",
     "objectIDs": ["27787"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "zysha",
     "objectIDs": ["2508"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "zysha",
     "objectIDs": ["2508"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "zysha",
     "objectIDs": ["21229"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "zysha",
     "objectIDs": ["21229"]
   }
 ,
   {
+    "index": "restaurants-v2",
     "eventType": "conversion",
     "eventName": "order",
-    "index": "restaurants-v2",
     "userToken": "zysha",
     "objectIDs": ["124642"]
   }
