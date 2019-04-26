@@ -67,7 +67,12 @@ function startDictation() {
     searchParameters: {
       hitsPerPage: 10,
       attributesToSnippet: ["content:20"],
-      snippetEllipsisText: " [...]"
+      snippetEllipsisText: " [...]",
+      enablePersonalization: true,
+    //   userToken: 'jack',
+    //   userToken: 'bram',
+    //   userToken: 'zysha',
+      userToken: 'adrien'
     }
   });
   
