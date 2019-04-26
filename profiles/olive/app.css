@@ -1,0 +1,22 @@
+.cuisineRibbon-wrapper, 
+.ais-search-box--magnifier-wrapper,
+.ais-search-box--reset-wrapper {
+    display: none !important;
+}
+
+.s-icon.s-input-group-addon.s-input-group-addon--left.u-flex-center-center.searchAutocomplete-icon {
+    position: relative;
+    left: 12rem;
+}
+
+#searchbox {
+        width: 1150px;
+}
+
+.ais-search-box--magnifier-wrapper {
+    display:none;
+}
+
+cb-icon {
+    display:none !important;
+}
