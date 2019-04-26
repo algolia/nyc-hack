@@ -1,4 +1,4 @@
-[
+{ "events": [
   {
     "index": "restaurants-v2",
     "eventType": "conversion",
@@ -158,4 +158,4 @@
     "userToken": "zysha",
     "objectIDs": ["124642"]
   }
-]
+] }

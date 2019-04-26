@@ -28,7 +28,7 @@ gen_view () {
 }
 
 # Generate and print JSON events
-echo "[" > perso-events.json
+echo '{ "events": [' > perso-events.json
 
 USER_TOKEN='jack'
 OBJECT_ID='63154' gen_order >> perso-events.json # 63154 = Kori Tribeca, Korean, Casual Dining, 2
@@ -77,7 +77,7 @@ OBJECT_ID='21229' gen_order >> perso-events.json
 echo "," >> perso-events.json
 OBJECT_ID='124642' gen_order >> perso-events.json # 124642 = Gato, Mediterranean, Casual Elegant, 4
 
-echo "]" >> perso-events.json
+echo "] }" >> perso-events.json
 cat perso-events.json
 
 read -p "Are you sure you want to upload these events to Algolia Insights API? " -n 1 -r
