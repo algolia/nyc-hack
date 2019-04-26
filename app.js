@@ -44,6 +44,8 @@ function startDictation() {
     recognition.onresult = function(e) {
       console.log(e);
       document.getElementById("searchbox").value = e.results[0][0].transcript;
+      search.helper.setQuery(e.results[0][0].transcript);
+      search.refresh();
       recognition.stop();
     };
   
@@ -92,6 +94,7 @@ function startDictation() {
       autofocus: false
     })
   );
+  
   
   // Uncomment the following widget to add categories list.
   
