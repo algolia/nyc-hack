@@ -21,5 +21,26 @@ function startDictation() {
   }
   
   document
-    .getElementById("voice-button")
+    .getElementById("mike")
     .addEventListener("click", startDictation);
+
+
+const search = instantsearch({
+    appId: 'XUWG1277VG',
+    apiKey: '0bd18526fc43f5dc2ecb530d649657d4',
+    indexName: 'restaurants-v2',
+});
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.s-input-group',
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#hits',
+  })
+);
+
+search.start();
